@@ -14,15 +14,15 @@
 // @match        https://belarus.blsspainglobal.com/Global/appointment/newappointment*
 // @match        https://blsspainbelarus.by/*
 // @grant        GM_xmlhttpRequest
-// @connect      interchange.proxy.rlwy.net
+// @connect      yamanote.proxy.rlwy.net
 // @run-at       document-idle
 // ==/UserScript==
 
 (function() {
   'use strict';
 
-  const RAILWAY_HOST = 'interchange.proxy.rlwy.net';
-  const RAILWAY_PORT = 37699;
+  const RAILWAY_HOST = 'yamanote.proxy.rlwy.net';
+  const RAILWAY_PORT = 43606;
   const API_HTTPS = `https://${RAILWAY_HOST}:${RAILWAY_PORT}`;
   const API_HTTP  = `http://${RAILWAY_HOST}:${RAILWAY_PORT}`;
 
